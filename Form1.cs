@@ -8,8 +8,8 @@ namespace ControlProductos
 {
     public partial class Form1 : Form
     {
-    string cadenaConexion = @"Data Source=localhost\SQLEXPRESS04;Initial Catalog=ParcialProgramacion1;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-
+    string cadenaConexion = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ParcialProgramacion1;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
+      
         public Form1()
         {
             InitializeComponent();
